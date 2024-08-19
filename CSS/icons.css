@@ -1,0 +1,126 @@
+.star {
+    background-image: url('../ICONS/star.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.star-half {
+    background-image: url('../ICONS/star-half.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.star-border {
+    background-image: url('../ICONS/star-border.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.plus {
+    background-image: url('../ICONS/plus.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.plus-white {
+    background-image: url('../ICONS/plus-white.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.plus-primary {
+    background-image: url('../ICONS/plus-primary.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.minus {
+    background-image: url('../ICONS/minus.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.minus-white {
+    background-image: url('../ICONS/minus-white.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.minus-primary {
+    background-image: url('../ICONS/minus-primary.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.before {
+    background-image: url('../ICONS/before.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.next {
+    background-image: url('../ICONS/next.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.up {
+    background-image: url('../ICONS/up.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.cart {
+    background-image: url('../ICONS/cart.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+.user {
+    background-image: url('../ICONS/user.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}

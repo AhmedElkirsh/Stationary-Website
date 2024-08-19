@@ -1,0 +1,248 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;  
+    margin-top: 12vh;
+}
+/*sidebar*/
+aside {
+    width: 20vw;
+    background-color: var(--white);
+    color: var(--text);
+    border: 2px solid var(--grey);
+    padding: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+    box-shadow: 8px 8px var(--grey);
+    height: 86vh;
+    margin-right: auto;
+
+}
+aside.fixed {
+    position: fixed;
+    left:0;
+}
+#related-items {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+.related-item-container .img-container {
+    flex-basis: 30%;
+    border: 1px solid var(--grey);
+}
+.related-item-content-container {
+    flex-basis:65%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+.related-item-container{
+    display: flex;
+    gap: 1em;
+}
+.related-item-container h4 {
+    font-size: var(--small);
+}
+.related-item-container h4 a{
+    color: var(--text);
+    text-decoration: none;
+}
+.related-item-container h4 a:hover{
+    text-decoration: underline;
+}
+.related-item-container .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/*----------- Main -----------*/
+main {
+    flex-basis: 70%;
+    min-height: 86vh;
+    margin-right: 4em;
+    background-color: var(--white);
+    color: var(--text);
+    box-shadow: -8px 8px var(--grey);
+    border: 2px solid var(--grey);
+    padding: 3em 4em ; 
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+main h2 {
+    margin: 0.5em 0 1em;
+}
+main > button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0.5em;
+    color: var(--primary);
+    font-size: var(--base);
+    font-weight: 500;
+    text-align: start;
+}   
+#focused-product {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#focused-product .content {
+    flex: 0 0 48%;
+}
+#focused-product .gallery {
+    flex: 0 0 40%;
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+}
+#focused-product .img-container {
+    flex: 0 0 20%;
+}
+#focused-product .img-container:not(:first-child) img {
+    opacity: 0.5;
+}
+#focused-product .img-container:first-child {
+    flex: 0 0 100%
+}
+
+
+#focused-product .img-container img.selected-img {
+    opacity: 1;
+}
+
+#focused-product .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid var(--grey);
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.content h1 {
+    font-size: var(--h3);
+    margin-bottom: 0.25em;
+}
+.content h1 a{
+    text-decoration: none;
+    color: var(--text);
+}
+.content .price {
+    font-size: var(--h4);
+    margin-bottom: 0.25em;
+} 
+.content .rating {
+    display: flex;
+    gap: 0.25em
+}
+.content .styles {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.7em;
+    margin: 1em 0;
+}
+.content .styles button.unavailable-style {
+    color: hsl(from var(--text) h s l / 0.5);
+    text-decoration: line-through;
+    border-color: hsl(from var(--text) h s l / 0.5);
+    cursor:auto;
+}
+.content .styles button.selected-style {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: hsl(from var(--primary) h s l / 0.5);
+    cursor: pointer;
+}
+
+.content .styles .style {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    border-radius: 2em;
+    color: var(--primary);
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.content .stock {
+    font-size: var(--small);
+    color: var(--white);
+    background-color: var(--text);
+    padding: 0.25em 0.5em;
+    font-weight: 600;
+    display: inline-block;
+    margin: 1em 0 0;
+}
+
+.content .quantity {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    position: relative;
+    padding: 0.5em 3em;
+    width: max-content;
+    font-size: var(--h6);
+}
+.content .quantity button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--primary);
+}  
+.content .quantity .count {
+    display: inline-block;
+    text-align: center;
+    width: 3ch;
+}
+
+.content .quantity button.decrement {
+    height: 100%;
+    width: 30%;
+    left: 0;
+} 
+.content .quantity button.increment {
+    height: 100%;
+    width: 30%;
+    right: 0;
+} 
+.content .quantity.disabled {
+    border-color: hsl( from var(--grey) h s 50% );
+    color: hsl( from var(--grey) h s 50% );
+}
+.add-to-cart {
+    background-color: var(--primary);
+    font-size: var(--base);
+    text-transform: uppercase;
+    color: var(--white);
+    border: 0;
+    outline: 0;
+    padding: 1em 0;
+    width: 100%;
+    margin-top: 1em;
+}
+.add-to-cart.disabled {
+    background-color: hsl( from var(--grey) h s l / 0.3);
+    color: hsl( from var(--grey) h s 50% );
+}
+
+footer {
+    flex-basis: 100%;
+    margin-top: 2em;
+}

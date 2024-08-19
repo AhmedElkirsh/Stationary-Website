@@ -1,0 +1,150 @@
+/* GENERAL */
+body {
+    height: 100%;
+    width: 100%;
+}
+form a {
+    text-decoration: none;
+    color: rgb(49, 49, 221);
+}
+/*SIGNUP*/
+.form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    min-width: 520px;
+    max-width: 80%;
+
+    background-color: var(--white);
+    color: var(--text);
+    box-shadow: -8px 8px var(--grey);
+    border: 2px solid var(--grey);
+    padding: 2em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.form-wrapper .welcome-msg h2 {
+    font-family: "Nova Mono", monospace;
+    font-size: var(--h3);
+    width: 10ch;
+    text-align: center;
+}
+form h2 {
+    margin-bottom: 1em;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+.form-box h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    
+}
+.input-block {
+    position: relative;
+}
+.input-block label {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 0.875rem;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    color: black;
+
+}
+.input-block input:focus ~ label,
+.input-block input:not(:placeholder-shown) ~ label {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: white;
+    font-size: 0.75rem;
+    color: black;
+    padding: 0 0.5em;
+}
+.input-block input {
+    font-size: 1.25rem;
+    padding: 0.75em 1rem; 
+    width: 100%;
+    outline: 0;
+    border-width: 1px;
+}
+.input-block input:focus {
+    outline: none;
+}
+.input-block input:-webkit-autofill {
+    background-color: #fff; 
+    transition: background-color 5000s ease-in-out 0s; /* Prevent flash of original color */
+}
+/* formatting the error msgs of single input fields */
+.input-block + p:not(:last-child), .terms + p {
+    font-size: 0.75rem;
+    margin: 0.25em 0 1em;
+    text-indent: 2ch;
+    color: transparent;
+    border: 0;
+}
+/*formatting the error msg of login*/
+.login > p {
+    background-color: var(--error-background);
+    color: var(--error);
+    border: 1px solid var(--error);
+    font-size: var(--small);
+    padding: 1em 1.5em;
+    display: none;
+}
+/*formatting the remember me checkbox*/
+div.auto-login {
+    color: var(--text);
+    margin-top: 0.25rem;
+}
+/*formatting the login button*/
+#login-submitBtn {
+    margin-top: 1.25rem;
+}
+/* adjusting the checkbox input  */
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 1em;
+}
+form button {
+    font-size: 1.25rem;
+    padding: 0.75em 1em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+/*classes for dynamic validation*/
+.valid-input {
+    border: 1px solid green;
+}
+.valid-label {
+    color: green;
+}
+.invalid-input {
+    border: 1px solid red;
+}
+.invalid-label {
+    color: red;
+}
+.neutral-input {
+    border: 1px solid blue;
+}
+.neutral-label {
+    color: blue;
+}

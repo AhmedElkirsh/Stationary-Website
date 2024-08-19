@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./CSS/global.css">
+    <title>Yay</title>
+    <Style>
+        main {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            gap: 4em;
+            align-items: center;
+            height: 100vh;
+        }
+        .check-container {
+            width: 25vw;
+            aspect-ratio: 1;
+        }
+        .check-container i{
+            font-size: 25vw;
+            color: var(--grey);
+        }
+        .msg {
+            width: 50vw;
+            text-align: center;
+            color: var(--text);
+            font-size: var(--h4);
+            font-weight: 600;
+        }
+        button.go-back {
+            font-size: var(--base); 
+            font-weight: 200;
+            padding: 1rem 4rem;
+            border: 0;
+            outline: 0;
+            background-color: var(--primary);
+            color: var(--white); 
+            cursor: pointer;
+        }
+    </Style>
+    <script>
+        window.addEventListener("DOMContentLoaded",()=>{
+            const btn = document.querySelector('.go-back')
+            btn.addEventListener('click',()=>{
+                window.history.go(-2);
+            })
+        })
+    </script>
+</head>
+<body>
+    <main>
+        <div class="check-container"><i class="fa-solid fa-circle-exclamation"></i></div>
+        <p class="msg">No Such Item Was Found</p>
+        <button class="go-back" type="button">Go Back</button>
+    </main>
+</body>
+</html>

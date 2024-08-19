@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "name": "uni-ball one P Gel Ink Ballpoint Pens / Mitsubishi Pencil",
+        "images": [
+            {
+                "src": "Images/products/1/1_second.webp",
+                "alt": "Uni-ball one P Gel Ink Ballpoint Pen close-up view"
+            },
+            {
+                "src": "Images/products/1/1_third.jpg",
+                "alt": "Uni-ball one P Gel Ink Ballpoint Pen writing sample"
+            }
+        ],
+        "price": 372.00,
+        "category": "Ballpoint Pens",
+        "description": "All pens use black gel ink.",
+        "tags": ["0.38mm"],
+        "variations": [
+            {
+                "style": "Yogurt",
+                "image": {
+                    "src": "Images/products/1/1_yogurt.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in yogurt color"
+                },
+                "stock": 0
+            },
+            {
+                "style": "Coffee",
+                "image": {
+                    "src": "Images/products/1/1_coffee.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in coffee color"
+                },
+                "stock": 14
+            },
+            {
+                "style": "Banana",
+                "image": {
+                    "src": "Images/products/1/1_banana.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in banana color"
+                },
+                "stock": 9
+            },
+            {
+                "style": "Grapes",
+                "image": {
+                    "src": "Images/products/1/1_grapes.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in grapes color"
+                },
+                "stock": 0
+            },
+            {
+                "style": "Mint",
+                "image": {
+                    "src": "Images/products/1/1_mint.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in mint color"
+                },
+                "stock": 10
+            },
+            {
+                "style": "Orange",
+                "image": {
+                    "src": "Images/products/1/1_orange.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in orange color"
+                },
+                "stock": 11
+            },
+            {
+                "style": "Soda",
+                "image": {
+                    "src": "Images/products/1/1_soda.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in soda color"
+                },
+                "stock": 15
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jetstream Edge Ballpoint Pen / uni Mitsubishi Pencil",
+        "images": [],
+        "price": 681.00,
+        "category": "Ballpoint Pens",
+        "description": "Challenging the limits of oil-based ballpoint pens, the Jetstream Edge pen features an ultra-fine 0.28mm ball diameter for a precise writing experience and a narrow “Point Tip” shape, allowing you to see the tip of the pen clearly when writing.",
+        "tags": ["0.28mm"],
+        "variations": [
+            {
+                "style": "Black",
+                "image": {
+                    "src": "Images/products/2/2_black.webp",
+                    "alt": "Jetstream Edge Ballpoint Pen in black color"
+                },
+                "stock": 18
+            },
+            {
+                "style": "Champagne Gold",
+                "image": {
+                    "src": "Images/products/2/2_champagne_gold.webp",
+                    "alt": "Jetstream Edge Ballpoint Pen in champagne gold color"
+                },
+                "stock": 4
+            },
+            {
+                "style": "Navy",
+                "image": {
+                    "src": "Images/products/2/2_navy.webp",
+                    "alt": "Jetstream Edge Ballpoint Pen in navy color"
+                },
+                "stock": 6
+            },
+            {
+                "style": "White Red",
+                "image": {
+                    "src": "Images/products/2/2_white_red.webp",
+                    "alt": "Jetstream Edge Ballpoint Pen in white red color"
+                },
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Calme Ballpoint Pen / Pentel",
+        "images": [],
+        "price": 124.00,
+        "category": "Ballpoint Pens",
+        "description": "A new smooth oil-based ballpoint pen with a design that harmonizes with people, featuring a quiet knock sensation, a leather-like long grip, and a matte texture. Because it is an oil-based ballpoint pen that is used daily, the design has been carefully considered to ensure that it not only feels comfortable for the user, but also blends in with the people and environment around them.",
+        "tags": ["0.5mm"],
+        "variations": [
+            {
+                "style": "Beige",
+                "image": {
+                    "src": "Images/products/3/3_beige.webp",
+                    "alt": "Calme Ballpoint Pen in beige color"
+                },
+                "stock": 8
+            },
+            {
+                "style": "Black",
+                "image": {
+                    "src": "Images/products/3/3_black.webp",
+                    "alt": "Calme Ballpoint Pen in black color"
+                },
+                "stock": 10
+            },
+            {
+                "style": "Brown",
+                "image": {
+                    "src": "Images/products/3/3_brown.webp",
+                    "alt": "Calme Ballpoint Pen in brown color"
+                },
+                "stock": 11
+            },
+            {
+                "style": "White Red",
+                "image": {
+                    "src": "Images/products/3/3_grayish_white.webp",
+                    "alt": "Calme Ballpoint Pen in grayish white color"
+                },
+                "stock": 5
+            },
+            {
+                "style": "Khaki",
+                "image": {
+                    "src": "Images/products/3/3_khaki.webp",
+                    "alt": "Calme Ballpoint Pen in khaki color"
+                },
+                "stock": 12
+            },
+            {
+                "style": "Turquoise Blue",
+                "image": {
+                    "src": "Images/products/3/3_turquoise_blue.webp",
+                    "alt": "Calme Ballpoint Pen in turquoise blue color"
+                },
+                "stock": 9
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ball Sign iD Plus Ballpoint Pen / Sakura",
+        "images": [],
+        "price": 263.00,
+        "category": "Ballpoint Pens",
+        "description": "The Ball Sign iD has taken on a matte texture and an even higher quality, making its new debut as the 'Ball Sign iD Plus'. You can choose your preferred shade of black from the three black inks available and express your individuality.",
+        "tags": ["0.4mm"],
+        "variations": [
+            {
+                "style": "Pure Black",
+                "image": {
+                    "src": "Images/products/4/4_pure_black.webp",
+                    "alt": "Calme Ballpoint Pen in pure black color"
+                },
+                "stock": 0
+            },
+            {
+                "style": "Night Black",
+                "image": {
+                    "src": "Images/products/4/4_night_black.webp",
+                    "alt": "Calme Ballpoint Pen in night black color"
+                },
+                "stock": 0
+            },
+            {
+                "style": "Forest Black",
+                "image": {
+                    "src": "Images/products/4/4_forest_black.webp",
+                    "alt": "Calme Ballpoint Pen in forest black color"
+                },
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Kuru Toga Advance Upgrade Mechanical Pencil / Mitsubishi Pencil",
+        "images": [
+            {
+                "src": "Images/products/5/5_second.webp",
+                "alt": "Kuru Toga Advance Upgrade Mechanical Pencil side view"
+            },
+            {
+                "src": "Images/products/5/5_third.webp",
+                "alt": "Kuru Toga Advance Upgrade Mechanical Pencil writing sample"
+            }
+        ],
+        "price": 124.00,
+        "category": "Mechanical Pens",
+        "description": "The density and thickness of the characters remain consistent. The Sharp 'ADVANCE' series that allows you to write beautiful characters. It's the 'ADVANCE Upgrade Model' featuring a stylish punched grip.",
+        "tags": ["0.5mm"],
+        "variations": [
+            {
+                "style": "Gunmetal",
+                "image": {
+                    "src": "Images/products/5/5_gunmetal.webp",
+                    "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in gunmetal color"
+                },
+                "stock": 3
+            },
+            {
+                "style": "Navy",
+                "image": {
+                    "src": "Images/products/5/5_navy.webp",
+                    "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in navy color"
+                },
+                "stock": 4
+            },
+            {
+                "style": "Red",
+                "image": {
+                    "src": "Images/products/5/5_red.webp",
+                    "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in red color"
+                },
+                "stock": 2
+            },
+            {
+                "style": "White",
+                "image": {
+                    "src": "Images/products/5/5_white.webp",
+                    "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in white color"
+                },
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "MS01 Mechanical Pencil / OHTO",
+        "images": [
+            {
+                "src": "Images/products/6/6_second.webp",
+                "alt": "MS01 Mechanical Pencil close-up view"
+            }
+        ],
+        "price": 1269.00,
+        "category": "Mechanical Pens",
+        "description": "Known for its various adjustable parts and weighty body, the MS01's drafting mechanical pencil has an all-metal build that accentuates the beauty of its design and mechanisms.",
+        "tags": ["0.5mm"],
+        "variations": [
+            {
+                "style": "Black",
+                "image": {
+                    "src": "Images/products/6/6_black.webp",
+                    "alt": "MS01 Mechanical Pencil in black color"
+                },
+                "stock": 23
+            },
+            {
+                "style": "Navy",
+                "image": {
+                    "src": "Images/products/6/6_navy.webp",
+                    "alt": "MS01 Mechanical Pencil in navy color"
+                },
+                "stock": 16
+            },
+            {
+                "style": "Silver",
+                "image": {
+                    "src": "Images/products/6/6_silver.webp",
+                    "alt": "MS01 Mechanical Pencil in silver color"
+                },
+                "stock": 14
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Mildliner Highlighter Sets / Zebra",
+        "images": [],
+        "price": 366.00,
+        "category": "Markers",
+        "description": "This double-sided marker uses a water-based pigment that does not stain through paper and comes in a variety of colors, including 'Natural,' 'Mild,' and 'Soothing,' and a 35 Color Box Set. With one side a highlighter and the other a marker, it can be used for both highlighting and illustrating!",
+        "tags": ["collection"],
+        "variations": [
+            {
+                "style": "Mild",
+                "image": {
+                    "src": "Images/products/7/7_mild.webp",
+                    "alt": "Mildliner Highlighter Sets / Zebra in Mild color"
+                },
+                "stock": 23
+            },
+            {
+                "style": "Natural",
+                "image": {
+                    "src": "Images/products/7/7_natural.webp",
+                    "alt": "Mildliner Highlighter Sets / Zebra in Natural color"
+                },
+                "stock": 16
+            },
+            {
+                "style": "Soothing",
+                "image": {
+                    "src": "Images/products/7/7_soothing.webp",
+                    "alt": "Mildliner Highlighter Sets / Zebra in Soothing color"
+                },
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Tradio Pulaman Fountain Pen Marker / Pentel",
+        "images": [
+            {
+                "src":"Images/products/8/8_second.webp",
+                "alt":""
+            },
+            {
+                "src":"Images/products/8/8_third.webp",
+                "alt":""
+            },
+            {
+                "src":"Images/products/8/8_forth.webp",
+                "alt":""
+            }
+        ],
+        "price": 366.00,
+        "category": "Markers",
+        "description": "You can enjoy a supple writing feel with a form that makes the most of flowing curves.",
+        "tags": ["single"],
+        "variations": [
+            {
+                "style": "Black",
+                "image": {
+                    "src": "Images/products/8/8_black.webp",
+                    "alt": ""
+                },
+                "stock": 23
+            },
+            {
+                "style": "Blue",
+                "image": {
+                    "src": "Images/products/8/8_blue.webp",
+                    "alt": ""
+                },
+                "stock": 0
+            },
+            {
+                "style": "Red",
+                "image": {
+                    "src": "Images/products/8/8_red.webp",
+                    "alt": ""
+                },
+                "stock": 14
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "2 Tone Highlighter Marktus 10 And 5 Colors Set / KOKUYO",
+        "images": [
+            {
+                "src":"Images/products/8/8_second.webp",
+                "alt":""
+            }
+        ],
+        "price": 609.00,
+        "category": "Markers",
+        "description": "You can enjoy a supple writing feel with a form that makes the most of flowing curves.",
+        "tags": ["collection"],
+        "variations": [
+            {
+                "style": "10 Color Set",
+                "image": {
+                    "src": "Images/products/9/9_10_color_set.webp",
+                    "alt": ""
+                },
+                "stock": 34
+            },
+            {
+                "style": "5 Color Set",
+                "image": {
+                    "src": "Images/products/9/9_5_color_set.webp",
+                    "alt": ""
+                },
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Frixion Light Erasable Highlighter Pen - Sheer Stone / Pilot",
+        "images": [],
+        "price": 104.00,
+        "category": "Markers",
+        "description": "You can enjoy a supple writing feel with a form that makes the most of flowing curves.",
+        "tags": ["single"],
+        "variations": [
+            {
+                "style": "Pink Page",
+                "image": {
+                    "src":"Images/products/10/10_pink_peige.webp",
+                    "alt":""
+                },
+                "stock": 3
+            },
+            {
+                "style": "Powder blue",
+                "image": {
+                    "src":"Images/products/10/10_poweder_blue.webp",
+                    "alt":""
+                },
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "A5-Size Memo Notebook with Pockets / Rollbahn",
+        "images": [],
+        "price": 104.00,
+        "category": "Notes",
+        "description": "You can enjoy a supple writing feel with a form that makes the most of flowing curves.",
+        "tags": ["squared","A5"],
+        "variations": [
+            {
+                "style": "Greige",
+                "image": {
+                    "src":"Images/products/11/11_greige.webp",
+                    "alt":""
+                },
+                "stock": 3
+            },
+            {
+                "style": "Powder blue",
+                "image": {
+                    "src":"Images/products/11/11_light_purple.webp",
+                    "alt":""
+                },
+                "stock": 5
+            },
+            {
+                "style": "Powder blue",
+                "image": {
+                    "src":"Images/products/11/11_silver.webp",
+                    "alt":""
+                },
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "MD Notebook A5 / Midori DESIGNPHIL",
+        "images": [],
+        "price": 609.00,
+        "category": "Notes",
+        "description": "Cover & Pages: MD Paper, 7mm ruled or 5mm grid or blank, 176 pages",
+        "tags": ["Ruled","A5"],
+        "variations": [
+            {
+                "style": "White",
+                "image": {
+                    "src":"Images/products/12/12_white.webp",
+                    "alt":""
+                },
+                "stock": 12
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Campus Flat Kimochii Notebook Semi B5 Size / Kokuyo",
+        "images": [
+            {
+                "src":"Images/products/13/13_second.webp",
+                "Alt":""
+            },
+            {
+                "src":"Images/products/13/13_third.webp",
+                "Alt":""
+            }
+        ],
+        "price": 457.00,
+        "category": "Notes",
+        "description": "Cover & Pages: MD Paper, 7mm ruled or 5mm grid or blank, 176 pages",
+        "tags": ["Blank","B5","A5"],
+        "variations": [
+            {
+                "style": "A-Ruled 7mm",
+                "image": {
+                    "src":"Images/products/13/13_a_ruled_7mm.webp",
+                    "alt":""
+                },
+                "stock": 12
+            },
+            {
+                "style": "B-Ruled 6mm",
+                "image": {
+                    "src":"Images/products/13/13_b_ruled_6mm.webp",
+                    "alt":""
+                },
+                "stock": 17
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Connected Calendar Stamp / Shachihata",
+        "images": [
+            {
+                "src":"Images/products/14/14_second.webp",
+                "Alt":""
+            }
+        ],
+        "price": 1932.00,
+        "category": "Stamps",
+        "description": "Record your daily habits clearly in a notebook or diary! Number stamps that can be freely connected vertically and horizontally.",
+        "tags": ["configurable"],
+        "variations": [
+            {
+                "style": "English",
+                "image": {
+                    "src":"Images/products/14/14_english.webp",
+                    "alt":""
+                },
+                "stock": 12
+            },
+            {
+                "style": "Japanese",
+                "image": {
+                    "src":"Images/products/14/14_japanese.webp",
+                    "alt":""
+                },
+                "stock": 43
+            },
+            {
+                "style": "Numbering",
+                "image": {
+                    "src":"Images/products/14/14_numbering.webp",
+                    "alt":""
+                },
+                "stock": 76
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "My Neighbor Totoro Flower and Grass Stamp Set Studio Ghibli / BEVERLY",
+        "images": [],
+        "price": 1675.00,
+        "category": "Stamps",
+        "description": "My Neighbor Totoro stamps feature a fun design of cute autumn and winter flowers. The set includes 12 stamps of various sizes, perfect for journaling and decorating notes, letters, and cards.",
+        "tags": ["squares"],
+        "variations": [
+            {
+                "style": "Spring and Summer",
+                "image": {
+                    "src":"Images/products/15/15_autumn_and_winter.webp",
+                    "alt":""
+                },
+                "stock": 12
+            },
+            {
+                "style": "Autumnt and Winter",
+                "image": {
+                    "src":"Images/products/15/15_spring_and_summer.webp",
+                    "alt":""
+                },
+                "stock": 43
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "A Small World Around Stamps Second Series / Kitte No Kobito",
+        "images": [
+            {
+                "src":"Images/products/16/16_second.webp",
+                "Alt":""
+            },
+            {
+                "src":"Images/products/16/16_third.webp",
+                "Alt":""
+            }
+        ],
+        "price": 609.00,
+        "category": "Stamps",
+        "description": "A stamp that can be used in combination with postage stamps. It allows you to add a humorous story around the stamp when sending seasonal letters, various event invitations, moving greeting cards, New Year's cards, and other mail or postcards.",
+        "tags": ["squares"],
+        "variations": [
+            {
+                "style": "Can't Take This Any Longer",
+                "image": {
+                    "src":"Images/products/16/16_cant_take_this_any_longer.webp",
+                    "alt":""
+                },
+                "stock": 4
+            },
+            {
+                "style": "Stamp Artist",
+                "image": {
+                    "src":"Images/products/16/16_stamp_artist.webp",
+                    "alt":""
+                },
+                "stock": 1
+            }
+        ]
+    }
+]

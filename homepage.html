@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencil Perfect</title>
+    <link rel="stylesheet" href="./CSS/icons.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/homepage.css">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="./JS/nav.js" type="module" defer></script>
+
+    <script src="./JS/homePage.js" defer></script>
+</head>
+<body>
+    <button id="backTop"><i class="up"></i></button>
+    <header>
+        <a href="homepage.html">pencil perfect</a>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li>
+                    <details id="shop">
+                        <summary>Shop</summary>     
+                        <ul class="detailed-nav-options">
+                            <li><a href="#">Ballpoint Pens</a></li>
+                            <li><a href="#">Mechanical Pens</a></li>
+                            <li><a href="#">Markers</a></li>
+                            <li><a href="#">Notes</a></li>
+                            <li><a href="#">Stamps</a></li>
+                        </ul>     
+                    </details>
+                </li>
+                <li>
+                    <details id="cart-icon">
+                        <summary><i class="cart"><span class="cart-count-nav"></span></i></summary> 
+                        <ul class="detailed-nav-options">
+                            
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details id="profile">
+                        <summary><i class="user"></i></summary>     
+                        <ul class="detailed-nav-options">
+                            <li><a id='username' href="#"></a></li>
+                            <li><a id="sign-out" href="./login.html">Sign out</a></li>
+                        </ul>     
+                    </details>
+                </li>    
+                <li><input id="color-swatch" type="color" value="#5713f2"></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <section class="slider">
+            <div class="slide-wrapper">
+                <section class="slide">
+                    <div class="slide-content">
+                        <h1>unique pen<br>collection</h1>
+                        <p>Writing will be your new favourite hobby with our reliable and elegant pen collection</p>
+                        <button>Go Shopping</button>
+                    </div>
+                </section>
+                <section class="slide">
+                    <div class="slide-content">
+                        <h1>highlight...<br>what matters</h1>
+                        <p>Add splashes of color to your writings with our paper-safe markers</p>
+                        <button>Go Shopping</button>
+                    </div>
+                </section>
+                <section class="slide">
+                    <div class="slide-content">
+                        <h1>keep good<br>memories.</h1>
+                        <p>keep deer memories safe on our high-quality notes.</p>
+                        <button>Go Shopping</button>
+                    </div>
+                </section>
+                <section class="slide">
+                    <div class="slide-content">
+                        <h1>personalize<br>your notes.</h1>
+                        <p>Bring your notes to life with the help of our cute stamp collection.</p>
+                        <button>Go Shopping</button>
+                    </div>
+                </section>
+            </div>
+            <div class="controls">
+                <button><i class="before"></i></button>
+                <button><i class="next"></i></button>
+            </div>
+            <div class="navigation-buttons">
+                <div class="navigation-circle slider-circle-highlight"></div>
+                <div class="navigation-circle"></div>
+                <div class="navigation-circle"></div>
+                <div class="navigation-circle"></div>
+            </div>
+        </section>
+    </main>
+    <section id="about-us">
+        <div class="about-us-content">
+            <h2>About Us</h2>
+            <p>
+                Welcome to pencil perfect, your number one source for all things stationery. We're dedicated to giving you the very best of office supplies, with a focus on quality, customer service, and uniqueness.
+            </p>
+            <p>
+                Founded in 2024 by Ahmed Atef, pencil perfect has come a long way from its beginnings in Shibin Elkom. When Ahmed Atef first started out, their passion for eco-friendly office supplies drove them to start their own business.
+            </p>
+            <p>
+                We now serve customers all over Egypt and are thrilled to be a part of the stationery industry. We hope you enjoy our products as much as we enjoy offering them to you.
+            </p>
+            <a href="about.html" class="learn-more">Learn More</a>
+        </div>
+        <div class="about-us-image">
+            <img src="./Images/location-image.jpeg" alt="location of pincel perfect">
+        </div>
+    </section>
+    <section id="faq">
+        <h2>FAQ</h2>
+        <div>
+            <details>
+                <summary>What types of stationery products do you offer?</summary>
+                <p>We offer a wide range of stationery products, including notebooks, pens, pencils, planners, office supplies, art supplies, and much more. Browse our categories to find the perfect items for your needs.</p>
+            </details>
+            <details>
+                <summary>How can I track my order?</summary>
+                <p>Once your order has been shipped, you will receive an email with a tracking number and a link to track your package. You can also track your order by logging into your account on our website and viewing your order history.</p>
+            </details>
+            <details>
+                <summary>What is your return policy?</summary>
+                <p>We accept returns within 30 days of purchase. Items must be in their original condition and packaging. Please visit our Return Policy page for detailed instructions on how to process a return.</p>
+            </details>
+            <details>
+                <summary>Do you offer international shipping?</summary>
+                <p>Yes, we offer international shipping to many countries. Shipping rates and delivery times vary based on the destination. Please check our Shipping Information page for more details.</p>
+            </details>
+            <details>
+                <summary>Can I customize my stationery order?</summary>
+                <p>Yes, we offer customization options for many of our products, such as personalized notebooks and custom-printed pens. Visit our Custom Orders page to learn more about the available options and how to place a custom order.</p>
+            </details>
+            <details>
+                <summary>What payment methods do you accept?</summary>
+                <p>We accept various payment methods, including credit/debit cards, PayPal, and other secure payment options. You can select your preferred payment method during the checkout process.</p>
+            </details>
+            <details>
+                <summary>How can I contact customer service?</summary>
+                <p>You can reach our customer service team by emailing support@stationeryshop.com or by calling our toll-free number at 1-800-123-4567. Our support team is available Monday through Friday from 9 AM to 5 PM EST.</p>
+            </details>
+            <details>
+                <summary>Do you offer bulk discounts for large orders?</summary>
+                <p>Yes, we offer bulk discounts for large orders. Please contact our sales team at sales@stationeryshop.com with your requirements, and we will provide you with a customized quote.</p>
+            </details>
+        </div>
+    </section>
+    <footer>
+        <div class="main-footer-content">
+            <div class="footer-col">
+                <img src="./Images/logo-big.png" alt="logo">
+                <ul class="general-info">
+                    <li><i class="fa-solid fa-shield"></i> EST. 1970</li>
+                    <li><i class="fa-solid fa-phone"></i> +20 1555 08 30 52</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@pencilperfect.co</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Mit khaqan, shibin Elkom, menofia</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Service</h4>
+                <ul class="service">
+                    <li>FAQs</li>
+                    <li>Shipping</li>
+                    <li>Return Policy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal Info</h4>
+                <ul class="legal-info">
+                    <li>Terms of service</li>
+                    <li>Cookie Policy</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul class="shop">
+                    <li>All</li>
+                    <li>Pens</li>
+                    <li>Pencils</li>
+                    <li>Notes</li>
+                    <li>Measuring tools</li>
+                    <li>Stamps</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="newsletter-half">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter to stay up-to-date with our latest offers!</p>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="payment-method-half">
+                    <h4>Payment methods</h4>
+                    <div class="debit-cards">
+                        <img src="./Images/paymentMethods/Visa.png" alt="Visa">
+                        <img src="./Images/paymentMethods/Mastercard.png" alt="Mastercard">
+                        <img src="./Images/paymentMethods/PayPal.png" alt="PayPal">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer-content">
+            <p>Made by <a href="#">Ahmed Atef</a>. &copy; Copyright 2024. All Rights Reserved.</p>
+            <div class="socials">
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/icons.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/productpage.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./JS/productPage.js" type="module" defer></script>
+    <script src="./JS/nav.js" type="module" defer></script>
+
+</head>
+<body>
+    <header>
+        <a href="homepage.html">pencil perfect</a>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li>
+                    <details id="shop">
+                        <summary>Shop</summary>     
+                        <ul class="detailed-nav-options">
+                            <li><a href="#">Ballpoint Pens</a></li>
+                            <li><a href="#">Mechanical Pens</a></li>
+                            <li><a href="#">Markers</a></li>
+                            <li><a href="#">Notes</a></li>
+                            <li><a href="#">Stamps</a></li>
+                        </ul>     
+                    </details>
+                </li>
+                <li>
+                    <details id="cart-icon">
+                        <summary><i class="cart"><span class="cart-count-nav"></span></i></summary> 
+                        <ul class="detailed-nav-options">
+                            
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details id="profile">
+                        <summary><i class="user"></i></summary>     
+                        <ul class="detailed-nav-options">
+                            <li><a id='username' href="#"></a></li>
+                            <li><a id="sign-out" href="./login.html">Sign out</a></li>
+                        </ul>     
+                    </details>
+                </li>    
+                <li><input id="color-swatch" type="color" value="#5713f2"></li>
+            </ul>
+        </nav>    
+    </header>
+    <aside>
+        <h2>Related items</h2>
+        <div id="related-items">
+            <!-- DOM content -->
+        </div>
+    </aside>
+    <main>
+        <article id="focused-product">
+            <!-- DOM content -->
+        </article>     
+    </main>
+    <footer>
+        <div class="main-footer-content">
+            <div class="footer-col">
+                <img src="./Images/logo-big.png" alt="logo">
+                <ul class="general-info">
+                    <li><i class="fa-solid fa-shield"></i> EST. 1970</li>
+                    <li><i class="fa-solid fa-phone"></i> +20 1555 08 30 52</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@pencilperfect.co</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Mit khaqan, shibin Elkom, menofia</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Service</h4>
+                <ul class="service">
+                    <li>FAQs</li>
+                    <li>Shipping</li>
+                    <li>Return Policy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal Info</h4>
+                <ul class="legal-info">
+                    <li>Terms of service</li>
+                    <li>Cookie Policy</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul class="shop">
+                    <li>All</li>
+                    <li>Pens</li>
+                    <li>Pencils</li>
+                    <li>Notes</li>
+                    <li>Measuring tools</li>
+                    <li>Stamps</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="newsletter-half">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter to stay up-to-date with our latest offers!</p>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="payment-method-half">
+                    <h4>Payment methods</h4>
+                    <div class="debit-cards">
+                        <img src="./Images/paymentMethods/Visa.png" alt="Visa">
+                        <img src="./Images/paymentMethods/Mastercard.png" alt="Mastercard">
+                        <img src="./Images/paymentMethods/PayPal.png" alt="PayPal">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer-content">
+            <p>Made by <a href="#">Ahmed Atef</a>. &copy; Copyright 2024. All Rights Reserved.</p>
+            <div class="socials">
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+    "1": {
+        "averageRating": "4.7",
+        "numberOfRatings": 3
+    },
+    "2": {
+        "averageRating": "4.5",
+        "numberOfRatings": 2
+    },
+    "3": {
+        "averageRating": "0",
+        "numberOfRatings": 0
+    },
+    "4": {
+        "averageRating": "4.5",
+        "numberOfRatings": 4
+    },
+    "5": {
+        "averageRating": "5.0",
+        "numberOfRatings": 1
+    },
+    "6": {
+        "averageRating": "4.3",
+        "numberOfRatings": 3
+    },
+    "7": {
+        "averageRating": "3.8",
+        "numberOfRatings": 8
+    },
+    "8": {
+        "averageRating": "4.0",
+        "numberOfRatings": 6
+    },
+    "9": {
+        "averageRating": "4.2",
+        "numberOfRatings": 7
+    },
+    "10": {
+        "averageRating": "4.8",
+        "numberOfRatings": 5
+    },
+    "11": {
+        "averageRating": "4.1",
+        "numberOfRatings": 9
+    },
+    "12": {
+        "averageRating": "3.5",
+        "numberOfRatings": 4
+    },
+    "13": {
+        "averageRating": "4.6",
+        "numberOfRatings": 6
+    },
+    "14": {
+        "averageRating": "3.9",
+        "numberOfRatings": 3
+    },
+    "15": {
+        "averageRating": "4.4",
+        "numberOfRatings": 5
+    },
+    "16": {
+        "averageRating": "4.0",
+        "numberOfRatings": 7
+    }
+}

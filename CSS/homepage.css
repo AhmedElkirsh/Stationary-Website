@@ -1,0 +1,214 @@
+
+#backTop {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    right: 100px;
+    bottom: 100px;
+    padding: 1em;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.403);
+    font-size: larger;
+}
+section.slider {
+    display: block;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--background);
+    position: relative;
+    margin-top: 10vh;
+    padding: 0 8em;
+}
+div.slide-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+section.slide {
+    position: relative;
+    
+    background-size: 35% ;
+    background-position: right 10% center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    
+}
+section.slide:nth-child(1) {
+    background-image: url(../Images/heroSlider/FountainPen.png);
+}
+section.slide:nth-child(2) {
+    background-image: url(../Images/heroSlider/Highlighter_Front.png);
+}
+section.slide:nth-child(3) {
+    background-image: url(../Images/heroSlider/Note_Front.png);
+}
+section.slide:nth-child(4) {
+    background-image: url(../Images/heroSlider/Stamp_Front.png);
+}
+.smooth-transition-slider {
+    transition: all 0.5s ease-out;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 50ch;
+}
+.slide-content h1 {
+    font-size: var(--h1);
+    font-family: "Nova Mono", monospace;
+    margin-bottom: 0.25em; 
+}
+.slide-content button {
+    font-size: var(--base);
+    font-weight: 200;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 0.2em;
+    outline: 0;
+}
+.slide-content button:hover {
+    background: linear-gradient(var(--hover), var(--hover)), linear-gradient(var(--primary), var(--primary))
+}
+.slide-content p {
+    font-size: var(--h6);
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 1em;
+}
+
+section.slider .controls > * {
+    background-color: transparent;
+    border: 1px solid transparent; 
+    outline: 0;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 50%;
+}
+section.slider .controls > *:hover {
+    border: 1px solid var(--text);
+    outline: 0;
+}
+section.slider .controls button:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    left: 8rem;
+}
+section.slider .controls button:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    right: 8rem;
+    font-size: var(--base);
+}
+section.slider .navigation-buttons{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    gap: 0.5rem;
+}
+.disabled-button {
+    color: hsl(from var(--text) h s l / 0.5)
+}
+.navigation-buttons .navigation-circle.slider-circle-highlight {
+    background-color: var(--primary);
+}
+.navigation-buttons .navigation-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: hsl(from var(--primary) h s l / 0.7)  
+}
+/*About us*/
+#about-us {
+    margin-top: 3em;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us .about-us-content {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+
+    flex-basis: 55%;
+    padding: 8em;
+}
+#about-us .about-us-content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+#about-us .about-us-content a:hover {
+    text-decoration: underline;
+}
+#about-us .about-us-content p {
+    line-height: 150%;
+}
+#about-us .about-us-image {
+    flex-basis: 40%;
+
+}
+#about-us .about-us-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+/* FAQ */
+#faq {
+    margin: 3em auto 4em;
+    min-width: 400px;
+    max-width: 700px;
+}
+#faq div {
+    background-color: var(--white);
+    box-shadow: -8px 8px var(--grey);
+    border: 2px solid var(--grey);
+}
+#faq h2 {
+    text-align: center;
+    margin: 1em 0 2em;
+    font-size: var(--h4);  
+}
+#faq details {
+    list-style: none;
+}
+#faq details:not(:last-child) {
+    border-bottom: 1px solid hsl(from var(--text) h s l / 0.5);
+}
+#faq summary {
+    width: 100%;
+    background-color: var(--white);
+    color: var(--text);
+    outline: 0;
+    padding: 1.25em 2em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: var(--h6);
+    cursor: pointer;
+}
+#faq p {
+    background-color: hsl(from var(--grey) h s l / 0.4);
+    color: var(--text);
+    font-size: var(--base);
+    padding: 1em 2em;
+    line-height: 150%;
+    width: 100%;
+}

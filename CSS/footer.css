@@ -1,0 +1,108 @@
+footer {
+    background-color: var(--white);
+    color: var(--text);
+
+    padding: 2em 8em;
+    border-top: 2px solid var(--grey);
+
+    font-size: var(--small);
+}
+.main-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+.main-footer-content .footer-col {
+    flex: 0 0 12%;
+}
+.main-footer-content .footer-col:first-child,
+.main-footer-content .footer-col:last-child {
+    flex: 0 0 25%;
+}
+.main-footer-content .footer-col h4 {
+    margin-bottom: 1.5em;
+}
+.main-footer-content .footer-col ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 1em;
+}
+ul {
+    list-style: none;
+}
+
+.footer-col:first-child i {
+    width: 1.5em;
+    text-align: center;
+    transform: translateX(-15%);
+}
+.footer-col:first-child img {
+    width: 45%;
+    object-fit: cover;
+    object-position: top left;
+
+    margin-bottom: 1.25em;
+    transform: translateY(-10px);
+}
+
+.footer-col:last-child {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+.newsletter-half p {
+    font-size: var(--small);
+    line-height: 150%;
+    margin-bottom: 1em;
+}
+.newsletter-half form {
+    position: relative;
+    width: 100%;
+    
+    border: 1px solid var(--text);
+    border-radius: 0.5em;
+}
+.newsletter-half form input {
+    background: transparent;
+    font-size: var(--small);
+    width: 100%;
+    padding: 0.75em 32% 0.75em 0.75em;
+    border: none;
+    outline: 0;
+}
+.newsletter-half form button{
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: var(--xsmall);
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0 0.5em 0.5em 0;
+}
+.payment-method-half img {
+    width: 1.5rem;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+}
+.sub-footer-content {
+    margin-top: 2em;
+    border-top: 1px solid var(--text);
+    padding-top: 2em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.sub-footer-content a:hover {
+    color: var(--primary);
+}
+.socials {
+    display: flex;
+    gap: 1em;
+}

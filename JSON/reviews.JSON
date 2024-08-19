@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "reviews": [
+            {
+                "user": "JohnDoe",
+                "comment": "Great quality, perfect for writing notes.",
+                "rating": 5,
+                "date": "2024-06-10"
+            },
+            {
+                "user": "JaneSmith",
+                "comment": "A bit expensive, but worth it.",
+                "rating": 4,
+                "date": "2024-06-12"
+            },
+            {
+                "user": "AlexBrown",
+                "comment": "Smooth ink flow and comfortable grip.",
+                "rating": 5,
+                "date": "2024-06-13"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "reviews": [
+            {
+                "user": "ChrisGreen",
+                "comment": "Excellent precision, perfect for detailed work.",
+                "rating": 5,
+                "date": "2024-06-14"
+            },
+            {
+                "user": "SamWhite",
+                "comment": "A bit pricey, but the quality justifies it.",
+                "rating": 4,
+                "date": "2024-06-15"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "reviews": []
+    },
+    {
+        "id": 4,
+        "reviews": [
+            {
+                "user": "EmilyDavis",
+                "comment": "Beautiful design and comfortable to use.",
+                "rating": 5,
+                "date": "2024-06-16"
+            },
+            {
+                "user": "MichaelBrown",
+                "comment": "Ink lasts a long time, very satisfied.",
+                "rating": 5,
+                "date": "2024-06-17"
+            },
+            {
+                "user": "LindaWilson",
+                "comment": "Good value for money, highly recommend.",
+                "rating": 4,
+                "date": "2024-06-18"
+            },
+            {
+                "user": "PeterSmith",
+                "comment": "The different shades of black are a nice touch.",
+                "rating": 4,
+                "date": "2024-06-19"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "reviews": [
+            {
+                "user": "NancyJones",
+                "comment": "The design is sleek and the grip is excellent.",
+                "rating": 5,
+                "date": "2024-06-20"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "reviews": [
+            {
+                "user": "DavidMiller",
+                "comment": "The metal build gives it a premium feel.",
+                "rating": 5,
+                "date": "2024-06-21"
+            },
+            {
+                "user": "SarahWilson",
+                "comment": "Adjustable parts are very useful.",
+                "rating": 4,
+                "date": "2024-06-22"
+            },
+            {
+                "user": "JamesTaylor",
+                "comment": "A bit heavy, but still comfortable to use.",
+                "rating": 4,
+                "date": "2024-06-23"
+            }
+        ]
+    }
+]

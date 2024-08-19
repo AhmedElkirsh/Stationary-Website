@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="ahmed atef" content="author">
+    <title>sign Up</title>
+    <link rel="stylesheet" href="./CSS/global.css">
+
+    <link rel="stylesheet" type="text/css" href="./CSS/signup-login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./JS/signUp.js" type="module" defer></script>
+</head>
+<body>
+    <main>
+        <div class="form-wrapper">
+            <div class="welcome-msg">
+                <h2>pincel. perfect</h2>
+            </div>
+            <div class="form-box sign-up">
+                <form>
+                    <div class="input-block">
+                        <input id="signup-name" type="text" placeholder=" " autocomplete="off">
+                        <label>Name</label>
+                    </div>
+                    <p>Each name must be atleast 3 letter.</p>
+                    <div class="input-block">
+                        <input id="signup-email" type="email" placeholder=" " autocomplete="off">
+                        <label>Email</label>
+                    </div>
+                    <p>Please enter a valid one.</p>
+                    <div class="input-block">
+                        <input id="signup-conf-email" type="email" placeholder=" " autocomplete="off" data-confirm="signup-email">
+                        <label>Confirm Email</label>
+                    </div>
+                    <p>Your emails don't match.</p>
+                    <div class="input-block">
+                        <input id="signup-password" type="password" placeholder=" " autocomplete="off">
+                        <label>Password</label>
+                    </div>
+                    <p>Your password must be 8 charachters atleast.</p>
+                    <div class="input-block">
+                        <input id="signup-conf-password" type="password" placeholder=" " autocomplete="off" data-confirm="signup-password">
+                        <label>Confirm Password</label>
+                    </div>
+                    <p>Your passwords don't match.</p>
+                    <div class="terms">
+                        <input id="terms-conditions" type="checkbox" >
+                        <label>I've read the <a href="#">terms and conditions</a></label>
+                    </div>
+                    <p>You must agree to the terms and conditions</p>
+                    <div class="input-block">
+                        <button id="signup-submitBtn" type="submit">Sign Up</button>
+                    </div>
+                    <p>Already have an account? <a href="./login.html">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,313 @@
+[
+  {
+      "id": 1,
+      "name": "uni-ball one P Gel Ink Ballpoint Pens / Mitsubishi Pencil",
+      "images": [
+          {
+              "src": "Images/products/1/1_peach.webp",
+              "alt": "Uni-ball one P Gel Ink Ballpoint Pen in peach color"
+          },
+          {
+              "src": "Images/products/1/1_second.webp",
+              "alt": "Uni-ball one P Gel Ink Ballpoint Pen close-up view"
+          },
+          {
+              "src": "Images/products/1/1_third.jpg",
+              "alt": "Uni-ball one P Gel Ink Ballpoint Pen writing sample"
+          }
+      ],
+      "price": 372.00,
+      "category": "Ballpoint Pens",
+      "description": "All pens use black gel ink.",
+      "tags": ["0.38mm"],
+      "stock": 25,
+      "variations": [
+            {
+                "style": "Yogurt",
+                "images": {
+                    "src": "Images/products/1/1_yogurt.webp",
+                    "alt": "Uni-ball one P Gel Ink Ballpoint Pen in yogurt color"
+                }
+            },
+            {
+              "style": "Coffee",
+              "images": {
+                  "src": "Images/products/1/1_coffee.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in coffee color"
+              }
+            },
+            {
+              "style": "Banana",
+              "images": {
+                  "src": "Images/products/1/1_banana.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in banana color"
+              }
+            },
+            {
+              "style": "Grapes",
+              "images": {
+                  "src": "Images/products/1/1_grapes.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in grapes color"
+              }
+            },
+            {
+              "style": "Mint",
+              "images": {
+                  "src": "Images/products/1/1_mint.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in mint color"
+              }
+            },
+            {
+              "style": "Orange",
+              "images": {
+                  "src": "Images/products/1/1_orange.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in orange color"
+              }
+            },
+            {
+              "style": "Soda",
+              "images": {
+                  "src": "Images/products/1/1_soda.webp",
+                  "alt": "Uni-ball one P Gel Ink Ballpoint Pen in soda color"
+              }
+            }       
+      ]
+  },
+  {
+      "id": 2,
+      "name": "Jetstream Edge Ballpoint Pen / uni Mitsubishi Pencil",
+      "images": [
+          {
+              "src": "Images/products/2/2_Black.webp",
+              "alt": "Jetstream Edge Ballpoint Pen in black color"
+          }
+      ],
+      "price": 681.00,
+      "category": "Ballpoint Pens",
+      "description": "Challenging the limits of oil-based ballpoint pens, the Jetstream Edge pen features an ultra-fine 0.28mm ball diameter for a precise writing experience and a narrow “Point Tip” shape, allowing you to see the tip of the pen clearly when writing.",
+      "tags": ["0.28mm"],
+      "stock": 10,
+      "variations": [
+          {
+              "style": "Black",
+              "images": {
+                  "src": "Images/products/2/2_black.webp",
+                  "alt": "Jetstream Edge Ballpoint Pen in black color"
+              }
+          },
+          {
+              "style": "Champagne Gold",
+              "images": {
+                  "src": "Images/products/2/2_champagne_gold.webp",
+                  "alt": "Jetstream Edge Ballpoint Pen in champagne gold color"
+              }
+          },
+          {
+              "style": "Navy",
+              "images": {
+                  "src": "Images/products/2/2_navy.webp",
+                  "alt": "Jetstream Edge Ballpoint Pen in navy color"
+              }
+          },
+          {
+              "style": "White Red",
+              "images": {
+                  "src": "Images/products/2/2_white_red.webp",
+                  "alt": "Jetstream Edge Ballpoint Pen in white red color"
+              }
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "name": "Calme Ballpoint Pen / Pentel",
+      "images": [
+          {
+              "src": "Images/products/3/3_beige.webp",
+              "alt": "Calme Ballpoint Pen in beige color"
+          }
+      ],
+      "price": 124.00,
+      "category": "Ballpoint Pens",
+      "description": "A new smooth oil-based ballpoint pen with a design that harmonizes with people, featuring a quiet knock sensation, a leather-like long grip, and a matte texture. Because it is an oil-based ballpoint pen that is used daily, the design has been carefully considered to ensure that it not only feels comfortable for the user, but also blends in with the people and environment around them.",
+      "tags": ["0.5mm"],
+      "stock": 13,
+      "variations": [
+          {
+              "style": "Beige",
+              "images": {
+                  "src": "Images/products/3/3_beige.webp",
+                  "alt": "Calme Ballpoint Pen in beige color"
+              }
+          },
+          {
+              "style": "Black",
+              "images": {
+                  "src": "Images/products/3/3_black.webp",
+                  "alt": "Calme Ballpoint Pen in black color"
+              }
+          },
+          {
+              "style": "Brown",
+              "images": {
+                  "src": "Images/products/3/3_brown.webp",
+                  "alt": "Calme Ballpoint Pen in brown color"
+              }
+          },
+          {
+              "style": "White Red",
+              "images": {
+                  "src": "Images/products/3/3_grayish_white.webp",
+                  "alt": "Calme Ballpoint Pen in grayish white color"
+              }
+          },
+          {
+              "style": "Khaki",
+              "images": {
+                  "src": "Images/products/3/3_khaki.webp",
+                  "alt": "Calme Ballpoint Pen in khaki color"
+              }
+          },
+          {
+              "style": "Turquoise Blue",
+              "images": {
+                  "src": "Images/products/3/3_turquoise_blue.webp",
+                  "alt": "Calme Ballpoint Pen in turquoise blue color"
+              }
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "name": "Calme Ballpoint Pen / Pentel",
+      "images": [
+          {
+              "src": "Images/products/4/4_pure_black.webp",
+              "alt": "Calme Ballpoint Pen in pure black color"
+          }
+      ],
+      "price": 263.00,
+      "category": "Ballpoint Pens",
+      "description": "The Ball Sign iD has taken on a matte texture and an even higher quality, making its new debut as the 'Ball Sign iD Plus'. You can choose your preferred shade of black from the three black inks available and express your individuality.",
+      "tags": ["0.4mm"],
+      "stock": 0,
+      "variations": [
+          {
+              "style": "Pure Black",
+              "images": {
+                  "src": "Images/products/4/4_pure_black.webp",
+                  "alt": "Calme Ballpoint Pen in pure black color"
+              }
+          },
+          {
+              "style": "Night Black",
+              "images": {
+                  "src": "Images/products/4/4_night_black.webp",
+                  "alt": "Calme Ballpoint Pen in night black color"
+              }
+          },
+          {
+              "style": "Forest Black",
+              "images": {
+                  "src": "Images/products/4/4_forest_black.webp",
+                  "alt": "Calme Ballpoint Pen in forest black color"
+              }
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "name": "Kuru Toga Advance Upgrade Mechanical Pencil / Mitsubishi Pencil",
+      "images": [
+          {
+              "src": "Images/products/5/5_gunmetal.webp",
+              "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in gunmetal color"
+          },
+          {
+              "src": "Images/products/5/5_second.webp",
+              "alt": "Kuru Toga Advance Upgrade Mechanical Pencil side view"
+          },
+          {
+              "src": "Images/products/5/5_third.webp",
+              "alt": "Kuru Toga Advance Upgrade Mechanical Pencil writing sample"
+          }
+      ],
+      "price": 124.00,
+      "category": "Mechanical Pens",
+      "description": "The density and thickness of the characters remain consistent. The Sharp 'ADVANCE' series that allows you to write beautiful characters. It's the 'ADVANCE Upgrade Model' featuring a stylish punched grip.",
+      "tags": ["0.5mm"],
+      "stock": 2,
+      "variations": [
+          {
+              "style": "Gunmetal",
+              "images": {
+                  "src": "Images/products/5/5_gunmetal.webp",
+                  "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in gunmetal color"
+              }
+          },
+          {
+              "style": "Navy",
+              "images": {
+                  "src": "Images/products/5/5_navy.webp",
+                  "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in navy color"
+              }
+          },
+          {
+              "style": "Red",
+              "images": {
+                  "src": "Images/products/5/5_red.webp",
+                  "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in red color"
+              }
+          },
+          {
+              "style": "White",
+              "images": {
+                  "src": "Images/products/5/5_white.webp",
+                  "alt": "Kuru Toga Advance Upgrade Mechanical Pencil in white color"
+              }
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "name": "MS01 Mechanical Pencil / OHTO",
+      "images": [
+          {
+              "src": "Images/products/6/6_black.webp",
+              "alt": "MS01 Mechanical Pencil in black color"
+          },
+          {
+              "src": "Images/products/6/6_second.webp",
+              "alt": "MS01 Mechanical Pencil close-up view"
+          }
+      ],
+      "price": 1269.00,
+      "category": "Mechanical Pens",
+      "description": "Known for its various adjustable parts and weighty body, the MS01's drafting mechanical pencil has an all-metal build that accentuates the beauty of its design and mechanisms.",
+      "tags": ["0.5mm"],
+      "stock": 53,
+      "variations": [
+          {
+              "style": "Black",
+              "images": {
+                  "src": "Images/products/6/6_black.webp",
+                  "alt": "MS01 Mechanical Pencil in black color"
+              }
+          },
+          {
+              "style": "Navy",
+              "images": {
+                  "src": "Images/products/6/6_navy.webp",
+                  "alt": "MS01 Mechanical Pencil in navy color"
+              }
+          },
+          {
+              "style": "Silver",
+              "images": {
+                  "src": "Images/products/6/6_silver.webp",
+                  "alt": "MS01 Mechanical Pencil in silver color"
+              }
+          }
+      ]
+  }
+]
